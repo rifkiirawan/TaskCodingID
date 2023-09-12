@@ -44,4 +44,9 @@
       <initValue>'HeCM15nHKBI='</initValue>
       <name>NegKataSandi</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'rifkiauliairawan@gmail.com'</initValue>
+      <name>RegisteredEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
