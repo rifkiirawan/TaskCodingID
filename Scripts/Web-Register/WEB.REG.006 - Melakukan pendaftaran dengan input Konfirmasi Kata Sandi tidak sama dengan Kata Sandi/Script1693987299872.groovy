@@ -31,11 +31,11 @@ WebUI.setEncryptedText(findTestObject('Website/form_Kata Sandi'), GlobalVariable
 
 WebUI.setEncryptedText(findTestObject('Website/form_Konfirmasi kata sandi'), GlobalVariable.NegKataSandi)
 
-WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
+WebUI.click(findTestObject('Website/check_Checkbox Setuju Syarat dan Ketentuan'))
 
-WebUI.click(findTestObject('Website/registerPage/btn_Daftar'))
+WebUI.click(findTestObject('Website/btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Website/registerPage/txt_kata sandi tidak sama'), 'kata sandi tidak sama')
+WebUI.verifyElementText(findTestObject('Website/txt_kata sandi tidak sama'), 'kata sandi tidak sama')
 
 WebUI.closeBrowser()
 
