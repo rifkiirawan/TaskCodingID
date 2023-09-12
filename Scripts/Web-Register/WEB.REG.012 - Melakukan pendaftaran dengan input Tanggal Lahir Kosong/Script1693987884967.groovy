@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Nama'), 'John Doe')
+WebUI.setText(findTestObject('Website/form_Nama'), GlobalVariable.Nama)
 
-WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), 'abc@gm.com')
+WebUI.setText(findTestObject('Website/form_E-Mail'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), '088811112222')
+WebUI.setText(findTestObject('Website/form_Whatsapp'), GlobalVariable.Whatsapp)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Website/form_Kata Sandi'), GlobalVariable.KataSandi)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Website/form_Konfirmasi kata sandi'), GlobalVariable.KonfirmasiKataSandi)
 
-WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
+WebUI.click(findTestObject('Website/check_Checkbox Setuju Syarat dan Ketentuan'))
 
-WebUI.click(findTestObject('Website/registerPage/btn_Daftar'))
+WebUI.click(findTestObject('Website/btn_Daftar'))
 
-WebUI.verifyElementText(findTestObject('Website/registerPage/txt_Wajib di isi'), 'Wajib di isi.')
+WebUI.verifyElementText(findTestObject('Website/txt_Wajib di isi'), 'Wajib di isi.')
 
 WebUI.closeBrowser()
 
