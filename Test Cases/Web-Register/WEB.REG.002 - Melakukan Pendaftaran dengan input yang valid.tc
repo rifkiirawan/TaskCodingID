@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB.REG.002 - Melakukan Pendaftaran dengan input yang valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81014e7b-b20c-4f32-99ec-563db167c1ad</testCaseGuid>
+</TestCaseEntity>

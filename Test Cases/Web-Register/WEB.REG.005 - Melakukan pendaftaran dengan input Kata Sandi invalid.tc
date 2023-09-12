@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WEB.REG.005 - Melakukan pendaftaran dengan input Kata Sandi invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d886342-380a-4c5e-930b-1b0a31680a9e</testCaseGuid>
+</TestCaseEntity>
