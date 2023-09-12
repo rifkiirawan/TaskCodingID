@@ -34,4 +34,9 @@
       <initValue>'iFGeFYmXIrUhQZHvW7P22w=='</initValue>
       <name>KonfirmasiKataSandi</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abc'</initValue>
+      <name>NegEmail</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
