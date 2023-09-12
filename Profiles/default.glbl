@@ -39,4 +39,9 @@
       <initValue>'abc'</initValue>
       <name>NegEmail</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'HeCM15nHKBI='</initValue>
+      <name>NegKataSandi</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

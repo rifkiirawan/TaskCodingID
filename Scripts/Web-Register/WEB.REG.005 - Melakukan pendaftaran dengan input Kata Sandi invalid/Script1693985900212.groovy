@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Website/Reuse TC/Access to Register Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Nama'), 'John Doe')
+WebUI.setText(findTestObject('Website/form_Nama'), GlobalVariable.Nama)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Tanggal lahir'), '02-sep-2000')
+WebUI.setText(findTestObject('Website/form_Tanggal lahir'), GlobalVariable.TanggalLahir)
 
-WebUI.setText(findTestObject('Website/registerPage/form_E-Mail'), 'abc@gm.com')
+WebUI.setText(findTestObject('Website/form_E-Mail'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Website/registerPage/form_Whatsapp'), '088811112222')
+WebUI.setText(findTestObject('Website/form_Whatsapp'), GlobalVariable.Whatsapp)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Kata Sandi'), 'HeCM15nHKBI=')
+WebUI.setEncryptedText(findTestObject('Website/form_Kata Sandi'), GlobalVariable.NegKataSandi)
 
-WebUI.setEncryptedText(findTestObject('Website/registerPage/form_Konfirmasi kata sandi'), 'HeCM15nHKBI=')
+WebUI.setEncryptedText(findTestObject('Website/form_Konfirmasi kata sandi'), GlobalVariable.NegKataSandi)
 
 WebUI.click(findTestObject('Website/registerPage/check_Checkbox Setuju Syarat dan Ketentuan'))
 
