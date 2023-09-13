@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.REG.006 - Melakukan pendaftaran dengan input Konfirmasi Kata Sandi tidak sama dengan Kata Sandi</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2ca57a45-8d70-4515-acd9-7611fa48c5de</testCaseGuid>
-</TestCaseEntity>

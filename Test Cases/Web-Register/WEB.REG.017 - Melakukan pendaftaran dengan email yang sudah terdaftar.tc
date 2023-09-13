@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.REG.017 - Melakukan pendaftaran dengan email yang sudah terdaftar</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f08f1e07-1fa9-4c20-964e-62fd79612214</testCaseGuid>
-</TestCaseEntity>

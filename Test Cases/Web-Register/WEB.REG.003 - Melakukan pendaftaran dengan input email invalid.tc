@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.REG.003 - Melakukan pendaftaran dengan input email invalid</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>f812755e-052f-400d-8481-9e231c4ff940</testCaseGuid>
-</TestCaseEntity>

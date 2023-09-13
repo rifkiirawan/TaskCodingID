@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>WEB.REG.012 - Melakukan pendaftaran dengan input Tanggal Lahir Kosong</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>66ef41b1-31cf-463d-8588-167893d87486</testCaseGuid>
-</TestCaseEntity>
